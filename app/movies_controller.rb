@@ -35,7 +35,7 @@ def can_be_created_in_a_block(title = "Home Alone", release_date = "1990")
 end
 
 def can_get_the_first_item_in_the_database
-  movie.first 
+  movie = Movie.first 
 end
 
 def can_get_the_last_item_in_the_database
